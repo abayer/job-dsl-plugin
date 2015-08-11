@@ -466,7 +466,7 @@ class PublisherContext extends AbstractExtensibleContext {
         }
     }
 
-    static List<String> validCloneWorkspaceCriteria = ['Any', 'Not Failed', 'Successful']
+    public static List<String> validCloneWorkspaceCriteria = ['Any', 'Not Failed', 'Successful']
     Set<String> validCloneWorkspaceArchiveMethods = ['TAR', 'ZIP']
 
     /**
